@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="imagenesVista.MainPage">
+
+
+
+
+    <ContentPage.Content>
+        <Grid Padding="-10" VerticalOptions="CenterAndExpand">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+
+
+            <Image Source="https://lh3.googleusercontent.com/rLWLHLYM3I8RfyRgAbdxtMWjxBIKv0z_cH7jAfl5hWJTvwzTOB1bQPALnZDi54IaS6sDeL6mJ6mumB-IFIbb6hseP1_njBZW73wqz8A=w600" 
+                   Grid.Column="0" 
+                   Grid.Row="0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+
+            </Image>
+            <Image Source="https://lh3.googleusercontent.com/djlKb0tNgAGwwpJ-WPul3ydsBm33OgliKOW80TGDA3qCoSht_UfynHkyRV-e_NyDXhAPU3OcphmoIybXHUzmjrEjyTapWUEaolwF3dw=w600" 
+                   Grid.Column="1" 
+                   Grid.Row="0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+
+            </Image>
+            <Image Source="https://lh3.googleusercontent.com/5Mf88MYEp9NhbPC--9TS0wo4KfESBSMjFegZDBnijuhUdAvZSeKZYn6nBJe8nTOOc_Bk6Dblsm3AO25ib2rEA_VawHSuWpWWdplEIw=w600" 
+                   Grid.Column="2" 
+                   Grid.Row="0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+
+            </Image>
+
+            <Image Source="https://lh3.googleusercontent.com/tKYAQ96zEobF_nAPL4EhGxY9uZP6TCwhri0G1BYwfC34O3xadsqe57UKL2ELac56041cAFJsSGUI6n4GAnvAB61EoWFHeXVod37v=w600" 
+                   Grid.Column="0" 
+                   Grid.Row="1">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+
+            </Image>
+            <Image Source="https://lh3.googleusercontent.com/yeTFvqugQ7JPTi-qPqTaqbEN9ja_0QXueUnoxjIBZ6UeP1rhV5Gm3YzkCtU2l3MlpghzOuUBfVH9Nw1Yf599HqU7Eb90IcKs4G4oTg=w600" 
+                   Grid.Column="1" 
+                   Grid.Row="1">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+
+            </Image>
+            <Image Source="https://lh3.googleusercontent.com/YBh6QkVphXw5twFFsBmYzZGZnTD8TW_ko93tFxRoXwkBmJUtoFDAZlJdkytCdrhQxRpLzPH-9mlNChK9p-u0nka__Prm4voshvBbAAM=w600" 
+                   Grid.Column="2" 
+                   Grid.Row="1">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+
+            </Image>
+
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>
