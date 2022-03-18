@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="imagenesVista.Page1">
+             x:Class="imagenesVista.Page2">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center">
-            <Image x:Name="x1" HeightRequest="400" WidthRequest="400">
+            <Image x:Name="x2" HeightRequest="400" WidthRequest="400">
                 <Image.GestureRecognizers>
-                    <SwipeGestureRecognizer Swiped="Swipe" Direction="Left"/>
-                    <PinchGestureRecognizer PinchUpdated="Zoom" />
+                    <TapGestureRecognizer
+                        Tapped="OnTap" NumberOfTapsRequired="2"/>
+                    <PinchGestureRecognizer PinchUpdated="Zoom2" />
                 </Image.GestureRecognizers>
             </Image>
         </StackLayout>

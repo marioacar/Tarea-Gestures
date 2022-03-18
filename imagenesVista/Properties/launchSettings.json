@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "imagenesVista": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\axelm\\source\\repos\\imagenesVista\\imagenesVista\\imagenesVista.csproj",
+      "nativeDebugging": true
+    }
+  }
+}

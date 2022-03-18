@@ -17,23 +17,29 @@ namespace imagenesVista
         }
 
 
-        
+
 
         async void OnTapGestureRecognizerTapped(Object sender, EventArgs args)
         {
 
-            
+
             {
-               var ima = (Image)sender;
+                var ima = (Image)sender;
 
 
                 await this.Navigation.PushModalAsync(new Page1(ima));
             }
-           
+
         }
 
-        
-
+        async void OnTapGestureRecognizerTapped2(object sender, EventArgs args)
+        {
+            var imagen = (Image)sender;
+            await this.Navigation.PushModalAsync(new Page2(imagen));
+        }
     }
 
+
+
 }
+

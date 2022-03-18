@@ -10,17 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace imagenesVista
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page1 : ContentPage
+    public partial class Page2 : ContentPage
     {
-        public Page1(object sender)
+        public Page2(object sender)
         {
             InitializeComponent();
-            var ima = (Image)sender;
-            x1.Source = ima.Source;
+            var imagen = (Image)sender;
+            x2.Source = imagen.Source;
         }
-
-
-        void Swipe(object sender, SwipeGestureRecognizer e)
+        void OnTap(object sender, EventArgs args)
         {
             this.Navigation.PopModalAsync();
         }
@@ -30,8 +28,7 @@ namespace imagenesVista
         private double xOffset;
         private double yOffset;
 
-
-        void Zoom(object sender, PinchGestureUpdatedEventArgs e)
+        void Zoom2(object sender, PinchGestureUpdatedEventArgs e)
         {
             if (e.Status == GestureStatus.Started)
             {
